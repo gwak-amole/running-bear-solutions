@@ -1,6 +1,6 @@
 const Navbar = () => {
     return(
-        <nav>
+        <nav className="text-sans">
             <ul>
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
@@ -10,3 +10,5 @@ const Navbar = () => {
         </nav>
     )
 }
+
+export default Navbar
