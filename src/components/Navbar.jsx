@@ -1,6 +1,6 @@
 const Navbar = () => {
     return(
-        <nav className="text-sans">
+        <nav className="font-sans">
             <ul>
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
