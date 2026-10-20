@@ -2,7 +2,7 @@ import CallButton from './CallButton.jsx'
 
 const Navbar = () => {
     return(
-        <nav className="font-sans bg-purple-100 text-purple-950 shadow-lg shadow-purple-800 sticky top-0 z-10">
+        <nav className="bg-purple-100 text-purple-950 shadow-lg shadow-purple-800 sticky top-0 z-10">
             <ul className="flex flex-row justify-between p-4">
                 <div className="flex flex-row gap-4 items-center">
                     <CallButton />
