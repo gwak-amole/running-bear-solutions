@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DotGothic16&family=Geist+Pixel&family=Jersey+15&family=PT+Serif+Caption:ital@0;1&family=Press+Start+2P&family=Zen+Dots&display=swap');
 
 @theme {
-  --font-sans: var(--sans);
+  --font-body: "PT Serif Caption", serif;
 }
 
-:root {
-  --sans: system-ui
+body {
+  font-family: var(--font-body)
 }
