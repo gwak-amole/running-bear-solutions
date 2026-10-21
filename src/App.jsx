@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CertificationSlide from './components/CertificationSlide'
 import SearchBar from './components/SearchBar'
+import FAQTemplate from './components/FAQtemplate'
 import './App.css'
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <CertificationSlide />
       <SearchBar />
+      <CertificationSlide />
+      <FAQTemplate />
     </>
   )
 }
