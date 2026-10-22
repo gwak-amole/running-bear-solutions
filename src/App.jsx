@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <SearchBar />
-      <CertificationSlide />
       <FAQSection />
+      <CertificationSlide />
     </>
   )
 }
