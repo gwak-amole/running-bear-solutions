@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import CertificationSlide from './components/CertificationSlide'
 import SearchBar from './components/SearchBar'
-import FAQTemplate from './components/FAQtemplate'
+import FAQSection from './components/FAQSection.jsx'
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <SearchBar />
       <CertificationSlide />
-      <FAQTemplate />
+      <FAQSection />
     </>
   )
 }
