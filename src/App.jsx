@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import CertificationSlide from './components/CertificationSlide'
 import SearchBar from './components/SearchBar'
 import FAQSection from './components/FAQSection.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SearchBar />
       <FAQSection />
       <CertificationSlide />
+      <Footer />
     </>
   )
 }
