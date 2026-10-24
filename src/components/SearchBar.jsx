@@ -10,7 +10,7 @@ const SearchBar = () => {
     ]
 
     return (
-        <div className="p-5">
+        <div id="services" className="p-5">
             <div>
                 <section className="w-full p-2">
                     <div className="flex justify-start gap-5 px-5">

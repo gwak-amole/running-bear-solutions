@@ -1,4 +1,5 @@
 import CallButton from './CallButton.jsx'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 const Navbar = () => {
     return(
@@ -9,10 +10,10 @@ const Navbar = () => {
                     <h2>+1 915 ____</h2>
                 </div>
                 <ul className="flex flex-row gap-2 sm:gap-4 lg:gap-8 items-center text-md sm:text-xl">
-                    <li><a>Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>FAQs</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#faq">FAQs</a></li>
                 </ul>
             </ul>
         </nav>
