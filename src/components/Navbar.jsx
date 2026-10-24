@@ -10,7 +10,7 @@ const Navbar = () => {
                     <h2>+1 915 ____</h2>
                 </div>
                 <ul className="flex flex-row gap-2 sm:gap-4 lg:gap-8 items-center text-md sm:text-xl">
-                    <li><Link to="/">Home</Link></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#faq">FAQs</a></li>

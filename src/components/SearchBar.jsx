@@ -6,7 +6,12 @@ const SearchBar = () => {
     const services = [
         "Mosquitos",
         "Rats",
-        "Termites"
+        "Termites",
+        "Cockroaches",
+        "Small Ants",
+        "Water Bugs",
+        "Mice",
+        "Large Ants"
     ]
 
     return (
