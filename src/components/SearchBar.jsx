@@ -4,14 +4,17 @@ import ReactDOM from "react-dom";
 const SearchBar = () => {
     const [search, setSearch] = useState(``);
     const services = [
-        "Mosquitos",
-        "Rats",
-        "Termites",
+        "Bedbugs",
         "Cockroaches",
-        "Small Ants",
-        "Water Bugs",
-        "Mice",
-        "Large Ants"
+        "All Ants",
+        "Mice or Rats",
+        "Ticks or Mites",
+        "Spiders",
+        "Hornets or Wasps",
+        "Fleas",
+        "Termites",
+        "Scorpions",
+        "Mosquitos"
     ]
 
     return (

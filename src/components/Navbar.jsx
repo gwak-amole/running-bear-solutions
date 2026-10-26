@@ -7,7 +7,7 @@ const Navbar = () => {
             <ul className="flex flex-row justify-between p-4">
                 <div className="flex flex-row gap-4 items-center">
                     <CallButton />
-                    <h2>+1 915 ____</h2>
+                    <h2>+1 915-248-2628</h2>
                 </div>
                 <ul className="flex flex-row gap-2 sm:gap-4 lg:gap-8 items-center text-md sm:text-xl">
                     <li><a className="hover:text-purple-700 transition-colors duration-300 ease-in-out" href="#home">Home</a></li>
