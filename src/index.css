@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DotGothic16&family=Geist+Pixel&family=Jersey+15&family=PT+Serif+Caption:ital@0;1&family=Press+Start+2P&family=Zen+Dots&display=swap');
 @import '@splidejs/react-splide/css';
 
 
@@ -17,8 +16,5 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-[id] {
-  scroll-margin-top: 60px;
+  scroll-padding-top: 60px;
 }
