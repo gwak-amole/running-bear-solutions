@@ -10,6 +10,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -21,7 +22,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: import.meta.env.BASE_URL,
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
