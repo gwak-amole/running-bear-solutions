@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: import.meta.env.BASE_URL,
+  basename: '/running-bear-solutions',
 });
 
 createRoot(document.getElementById('root')).render(
